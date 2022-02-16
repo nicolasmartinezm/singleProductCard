@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  background-image: url(imgs/thebg.jpg);
+}
+img {
+  width: 20px;
+}
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: 900;
+}
+.container {
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: grid;
+  grid-gap: 5px;
+  padding: 20px;
+  background: white;
+}
+.image {
+  width: 100%;
+  display: grid;
+  place-items: Center;
+  padding-top: 20px;
+}
+.image img {
+  width: 100%;
+}
+.review {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: Space-between;
+  justify-items: end;
+}
+
+h2 {
+  font-size: 13px;
+}
+.review img {
+  width: 20px;
+  margin: -1px;
+}
+.price {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 30px;
+  align-self: end;
+}
+.productSpecs {
+  display: grid;
+  grid-gap: 5px;
+  padding-bottom: 5px;
+}
+.productSpecs p {
+  font-size: 13px;
+}
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.likeBtn {
+  background: #ebebeb;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+}
+button {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto;
+  align-items: center;
+  padding: 7px 20px;
+  color: white;
+  background: black;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s ease-in;
+}
+button:hover {
+  cursor: pointer;
+  background: white;
+  border: 1px solid black;
+  color: black;
+}
+.cartBtn {
+  width: 30px;
+  height: 30px;
+  background: #333333;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+}
